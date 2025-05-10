@@ -45,12 +45,15 @@ Design and simulate a basic heater control system using a temperature sensor and
 
 ## 📊 Block Diagram
 
-![Block Diagram](./circuit_diagram.png)
+![Block Diagram](./Block_Diagram.png)
+
+
 
 
 ---
 
 ## 🧠 System Working Principle
+![Flow Chart Diagram](./circuit_diagram.png)
 
 1. The temperature sensor sends data to the ESP32.
 2. If the temperature drops **below 20°C**, the ESP32 **activates the relay** (heater ON).
